@@ -4,7 +4,7 @@ Using docker image [angular-cli](https://hub.docker.com/r/alexsuch/angular-cli/)
 
 cd into folder and pull the docker image `docker-compose up -d`
 
-Install dependencies `docker run -it --rm -w /app -v $(pwd):/app alexsuch/angular-cli npm install`
+Install dependencies `docker run -it --rm -w /app -v $(pwd):/app alexsuch/angular-cli yarn install`
 
 Serve the app `docker run -it --rm -w /app -v $(pwd):/app -p 4200:4200 alexsuch/angular-cli ng serve --host 0.0.0.0`
 
