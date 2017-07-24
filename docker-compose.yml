@@ -1,0 +1,5 @@
+version: '2'
+services:
+  # The ng site
+  ng:
+    image: alexsuch/angular-cli:1.2.1
