@@ -2,7 +2,7 @@
 
 Using docker image [angular-cli](https://hub.docker.com/r/alexsuch/angular-cli/) 
 
-cd into forlder and pull the docker image `docker-compose up -d`
+cd into folder and pull the docker image `docker-compose up -d`
 
 Install dependencies `docker run -it --rm -w /app -v $(pwd)/my-project-name:/app -p 4200:4200 alexsuch/angular-cli nom install`
 
