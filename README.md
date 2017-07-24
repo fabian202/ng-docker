@@ -1,3 +1,11 @@
+Using docker image [angular-cli](https://hub.docker.com/r/alexsuch/angular-cli/) 
+
+Install dependencies `docker run -it --rm -w /app -v $(pwd)/my-project-name:/app -p 4200:4200 alexsuch/angular-cli nom install`
+
+Serve the app `docker run -it --rm -w /app -v $(pwd):/app -p 4200:4200 alexsuch/angular-cli ng serve --host 0.0.0.0`
+
+Now go to (http://localhost:4200)
+
 # DockerNg2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
